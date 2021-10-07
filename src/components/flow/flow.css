@@ -1,0 +1,88 @@
+.Fpp {
+  text-align: center;
+  background-color: whitesmoke;
+ 
+}
+
+.Fpp-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+.Fpp-header {
+  background-color: whitesmoke;
+  /* min-height: 10vh; */
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.dropzone {
+  width: 500px;
+  height: 20px;
+  display: block;
+  margin-left: 670px;
+  
+  background: whitesmoke;
+  border: 3px solid black;
+  border-bottom-color:  gray;
+  border-top-color:  gray;
+  border-left-color: whitesmoke;
+  border-right-color: whitesmoke;
+  
+  padding: 10px;
+}
+
+.dropzone1 {
+  width: 500px;
+  height: 20px;
+  display: block;
+  margin-left: 670px;
+  
+  background: whitesmoke;
+  border: 3px solid black;
+  border-bottom-color:  gray;
+  border-top-color:  whitesmoke;
+  border-left-color: whitesmoke;
+  border-right-color: whitesmoke;
+  
+  padding: 10px;
+}
+.dragzone {
+  
+  padding-top: 20px;
+}
+.word {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  width: 95px;
+   border-radius: 20px;
+  border: 1px solid black;
+  border-color: gray;
+   height:24px;
+    text-align:center;
+    font-size:16px;
+    letter-spacing:1px;
+    
+      
+}
+.button {
+  border-radius: 25px;
+  width: 500px;
+  height: 70px;
+  background-color: white;
+  color:gray;
+  border-color: white;
+}
+
+
+.rs-play svg {
+  display: none;
+}
+.rs-play rs-text{
+  width: 100%;
+}
